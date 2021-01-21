@@ -28,9 +28,11 @@ simply run the <file_name>.ipynb files using jupyter notebook.
 
 ## Vector Quantized Variational AutoEncoder (VQ-VAE)
 - trained on CIFAR-10 dataset for 50 epochs
-- groundtruth(left) vs. reconstruction(right)
+- groundtruth(top) vs. reconstruction(bottom)
 
-![VQ-VAE_ground_truth](./assets/VQ-VAE_ground_truth.png) ![VQ-VAE_reconstructed](./assets/VQ-VAE_reconstructed.png)
+![VQ-VAE_ground_truth](./assets/VQ-VAE_ground_truth.png) 
+
+![VQ-VAE_reconstructed](./assets/VQ-VAE_reconstructed.png)
 
 
 - randomly sampled codes from codebook
