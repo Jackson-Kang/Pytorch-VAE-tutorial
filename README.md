@@ -19,15 +19,22 @@ simply run the <file_name>.ipynb files using jupyter notebook.
 ## Variational AutoEncoder (VAE)
 - trained on MNIST dataset for 20 epochs
 - groundtruth(left) vs. reconstruction(right)
+
 ![VAE_ground_truth](./assets/VAE_ground_truth.png) ![VAE_reconstructed](./assets/VAE_reconstructed.png)
+
 - generated random samples
+
 ![VAE_generated_sample](./assets/VAE_generated_random_sample.png)
 
 ## Vector Quantized Variational AutoEncoder (VQ-VAE)
 - trained on CIFAR-10 dataset for 50 epochs
 - groundtruth(left) vs. reconstruction(right)
+
 ![VQ-VAE_ground_truth](./assets/VQ-VAE_ground_truth.png) ![VQ-VAE_reconstructed](./assets/VQ-VAE_reconstructed.png)
+
+
 - randomly sampled codes from codebook
+
 ![VQ-VAE_random_codes](./assets/VQ-VAE_random_codes.png)
 
 
