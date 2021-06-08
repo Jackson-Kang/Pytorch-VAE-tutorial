@@ -18,11 +18,11 @@ simply run the <file_name>.ipynb files using jupyter notebook.
 # Experimental Results
 ## Variational AutoEncoder (VAE)
 - trained on MNIST dataset for 20 epochs
-- groundtruth(left) vs. reconstruction(right)
+- groundtruth(left) vs. generated(reconstructed, right)
 
 ![VAE_ground_truth](./assets/VAE_ground_truth.png) ![VAE_reconstructed](./assets/VAE_reconstructed.png)
 
-- generated random samples
+- generated random samples from noise vector
 
 ![VAE_generated_sample](./assets/VAE_generated_random_sample.png)
 
